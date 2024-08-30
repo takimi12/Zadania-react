@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es2022",                          // Wybierz wersję ECMAScript
+      "lib": ["dom", "dom.iterable", "esnext"], // Biblioteki używane w aplikacji
+      "allowJs": true,                          // Pozwala na importowanie plików JS
+      "skipLibCheck": true,                     // Pomija sprawdzanie typów w zainstalowanych bibliotekach
+      "esModuleInterop": true,                  // Włącza zgodność z CommonJS
+      "allowSyntheticDefaultImports": true,     // Pozwala na użycie importów domyślnych w stylu ES6
+      "strict": true,                           // Włącza ścisły tryb TypeScript
+      "forceConsistentCasingInFileNames": true, // Wymusza konsekwentne użycie wielkości liter
+      "module": "esnext",                       // Ustawia używany moduł ECMAScript
+      "moduleResolution": "node",               // Ustawia sposób rozpoznawania modułów
+      "resolveJsonModule": true,                // Pozwala na importowanie plików JSON
+      "isolatedModules": true,                  // Zapewnia, że każdy plik jest traktowany jako osobny moduł
+      "noEmit": true,                           // Wyłącza emisję wyjściowych plików JS
+      "jsx": "react-jsx"                        // Ustawia sposób obsługi JSX
+    },
+    "include": ["src"] // Określa, które pliki i katalogi będą kompilowane
+  }
+  
