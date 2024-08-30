@@ -50,7 +50,9 @@ import { HomeworkForm222 } from './formularze/odcinek70/zad2/Homework2';
 import { HomeworkForm2Grygierek } from './formularze/odcinek70/zad2/GrygierekHomework2';
 import { CounterRef } from './referencja/CounterRef';
 import { CounterLets } from './referencja/HomeWork/ex';
-
+import { ThreCounters } from './referencja/HomeWork/ex2ex1';
+import { ThreCountersGrygierek } from './referencja/HomeWork/ex2ex1Grygierek';
+import { HomeWorkRef2Parent } from './referencja/HomeWork/ex2ex2GrygierkeParent';
 
 function App() {
   return (
@@ -106,6 +108,12 @@ function App() {
 < HomeworkForm2Grygierek /> */}
 {/* <HomeworkForm /> */}
 {/* <CounterLets /> */}
+{/* <ThreCounters />
+<ThreCountersGrygierek /> */}
+
+<HomeWorkRef2Parent />
+
+
     </div>
   );
 }
