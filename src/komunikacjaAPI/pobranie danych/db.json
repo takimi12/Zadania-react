@@ -1,0 +1,10 @@
+{
+    "collection1":[
+        {"id":"1", "prop":"value1", "prop2":100},
+        {"id":"2", "prop":"value2", "prop2":200}
+    ],
+    "collection2":[
+        {"id":"1", "prop":"value3", "prop2":300},
+        {"id":"2", "prop":"value4", "prop2":400}
+    ]
+}

@@ -1,0 +1,31 @@
+// stylowanie.module.scss
+
+// Base styles for wrapper
+.wrapper {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  // Styles for active state
+  .isActive {
+    background-color: lightcoral;
+    transform: scale(1.1);
+  }
+  
+  // Styles for primary state
+  .primary {
+    background-color: lightblue;
+  }
+  
+  // Using clsx for combined states
+  .active {
+    background-color: lightcoral;
+  }
+  
+  .primary {
+    background-color: lightblue;
+  }
+  
