@@ -23,10 +23,10 @@ export const  MyVersionwitHook = () => {
 
 
     const createTodo = async (title:string) => {
-        const response = await apiPost<Todo, TodoDto>(`todos`, {title});
-        if(response) {
-            setData(response)
-        }
+        // const response = await apiPost<Todo, TodoDto>(`todos`, {title});
+        // if(response) {
+        //     setData(response)
+        // }
     }
 
     const textChnage = (e:React.ChangeEvent<HTMLInputElement>) => {

@@ -4,16 +4,14 @@ type AgeVerifierProps = {
     age: number;
 }
 
-export const AgeVerifier = ({ age }: AgeVerifierProps) => {
+export const SimpleAgeVerifier = ({ age }: AgeVerifierProps) => {
 
-    let content:React.ReactNode = '(x) wstęĻ wzbroniony'
+        if(age < 18) return null;
 
-    if(age >= 18) {
-        content = <h1>Witaj w swiecie doroslych</h1>
-    }
     return (
         <div>
-            {content}
+            <h1>Witaj</h1>
+            Jesteś ju dorosły
         </div>
     );
 };

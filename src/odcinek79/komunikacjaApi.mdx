@@ -1,0 +1,46 @@
+
+
+function KomunikacjaApi() {
+
+    
+    // domyslne zapytanie get
+    const response = await fetch ('http');
+    const data = await response.json();
+    
+        // Zapytanie Delete
+    const response = adwait fetce(‚hitp’, {method: ‚Delete’})
+    // json serwer w odpowiedzi jesli udalo zwraca status 200 i dodstajemy w odpowiedzi rekord, ktory zostal usuniety
+
+
+    // Patch - sluzy do aktualizacji wybranej części danego rekordu
+    // Put - powinien aktualizować cały rekord
+
+    //POST - pozwala nam utworzyć nowy zasób
+
+    const response = await fetch( url, {
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+
+    const data1 = await response.json();
+    console.log(data1)
+
+    // kod 201 - oznacza created
+
+
+
+
+
+    // jak obsluzyc fetcha then catchem??
+
+  return (
+    <>
+
+    </>
+  );
+}
+
+export default PokemonInfo;

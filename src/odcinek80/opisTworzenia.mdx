@@ -1,0 +1,27 @@
+1. Pobranie danych
+- hook do metody get
+- wyswietlenie danych
+-stworzenie pliku z typami
+2.stworzenie komponnetu singleTodo, zeby wyswietlac pojedynczy element
+- napisanie w nim funkcji do usuwania elementu z bazy
+- przekopiowanie geta i zrobienie z niego delete poprzez dodanie method:delete
+-wydzielenie z zapytania get i delete oddzielnego fetcha i wywolywanie go w oddzielnej metodzie
+- przeniesienie typowania za pomocą <T> z hooka do metody i otypowanie zwracanych danych jako R
+- zmienienie metody call, która wczesniej za pomocą hooka zapisywała do stanu przychodzące dane na po prostu zwracane dane
+-otypowanie za pomocą <R> metod get i delete
+-utworzenie getTodos do wykorzystania apiGet, zrobienie stanu data i zapisanie dzialanai getTodos do tego stanu
+3. stworzenie hooka useTodos w celu oddelegowania logiki odpowiedzialnej za pobieranie w inne miejsce
+4. tworzę nowego hoooka useTodoDelete
+5. w singleTodo odwoluje sie do hooka useTodoDelete
+6. zmieniam na false domyślnie i na true w metodzie call
+// w tym momencie usuwanie juz dziala
+7. tworzymy metodę aktualizującą state po usunięciu (useTodos)
+-odbieramm ją w singleTodo
+--------
+DODAWANIE NOWEGO ITEMU
+8. tworzę formularz do przesyłania nowego itemu todoform
+-tworzę hooka usetodoCreate, ktory jest praktycznie kopią useTodoDelete
+-rozszerzam useApi o nowego hooka usetodoCreate i modyfikuje metode call zeby ja do niego dostosowac
+- tak samo  jak przy usuwnaiu todosa - aktualizazcja stanu
+
+
