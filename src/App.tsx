@@ -1,19 +1,19 @@
 
 
 
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Books86 } from "./odcinek86/books";
-import { BookStat } from "./odcinek86/BookStats";
+// import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+// const queryClient = new QueryClient();
 
-const queryClient = new QueryClient();
 
 function App() {
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <BookStat />
-      <Books86 />
-    </QueryClientProvider>
+    // <QueryClientProvider client={queryClient}>
+
+    // </QueryClientProvider>
+    <div>
+
+    </div>
   );
 }
 
